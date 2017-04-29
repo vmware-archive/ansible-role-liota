@@ -9,6 +9,14 @@
   register: service_result
   ignore_errors: True
 
+- name: start liotad
+  service:
+    name: liotad
+    state: started
+  register: service_result
+  ignore_errors: True
+
+
 - debug: msg="{{ service_result }}"
   when: liota_debug_ansible
 
@@ -19,4 +27,3 @@
     and service_result.msg is defined
     and 'not find the requested service' not in service_result.msg
     and 'no service or tool found' not in service_result.msg
-
