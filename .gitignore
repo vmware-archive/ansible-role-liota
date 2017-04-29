@@ -6,3 +6,4 @@ ansible-role-govc
 build
 mnt
 .idea/
+.molecule/
