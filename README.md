@@ -51,7 +51,7 @@ Check [vars/default.yml](vars/default.yml) for details on available vars.
 ## License
 
 Copyright © 2017 VMware, Inc. All Rights Reserved.
-SPDX-License-Identifier: MIT
+SPDX-License-Identifier: MIT OR GPL-3.0-only
 
 
 ## Author Information
